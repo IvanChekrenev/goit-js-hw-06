@@ -21,6 +21,4 @@ function onInputChange(event) {
     };  
  }
 
-
-
 inputEl.addEventListener("blur", onInputChange);
