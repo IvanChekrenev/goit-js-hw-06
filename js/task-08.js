@@ -14,9 +14,13 @@ function checkSubmitInput(event) {
         
     };
 
+    // const {
+    //     elements: { email, password },
+    // } = event.currentTarget;    
+
     const {
-        elements: { email, password },
-    } = event.currentTarget;    
+        email, password,
+    } = event.currentTarget.elements;    
     
     const formData = {
         email: email.value,
