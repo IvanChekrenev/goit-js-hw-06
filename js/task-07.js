@@ -5,7 +5,7 @@ console.log(spanEl);
 
 
 inputEl.addEventListener('input', changeSpanText);
-
+spanEl.style.fontSize = `${inputEl.value}.px`
 function changeSpanText(event) {
     console.log(event.currentTarget.value);
     spanEl.style.fontSize = `${event.currentTarget.value}.px`
