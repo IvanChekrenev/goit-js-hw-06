@@ -10,7 +10,7 @@ function onInputChange(event) {
     if (event.currentTarget.value.length === Number(inputEl.dataset.length)) {
         console.log('ok');
         event.currentTarget.classList.add("valid");
-    event.currentTarget.classList.remove("invalid");
+        event.currentTarget.classList.remove("invalid");
     } else {
         console.log('no ok');
         event.currentTarget.classList.remove("valid");
